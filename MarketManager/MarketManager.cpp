@@ -42,6 +42,7 @@ void urunTablosu(int sepettekiUrunSayisi, string urunListesi[]) {
     }
 }
 
+
 void sepetTablosu(string sepettekiUrunler[50], float sepettekiUrunFiyatlari[50], int sepettekiUrunAdetleri[50], int sepettekiUrunSayisi) {
     double toplam = 0;
     int kontrol = 0;
@@ -116,6 +117,7 @@ void sepetTablosu(string sepettekiUrunler[50], float sepettekiUrunFiyatlari[50],
     getch();
 
 }
+
 
 int main() {
     setlocale(LC_ALL, "Turkish");
